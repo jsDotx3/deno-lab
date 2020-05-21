@@ -13,7 +13,7 @@
 * Github: [@jsDotx3](https://github.com/jsDotx3)
 
 ## Scripts
-### Start
+###Start
 ```sh
 deno run --allow-net --allow-read --allow-env -c tsconfig.json server.ts
 ```
@@ -28,4 +28,6 @@ deno run --allow-net --allow-read --allow-env -c tsconfig.json server.ts
 - Agregar tests.
 - Agregar Prettier (revisión de procesos antes del commit)
 - Disponibilizar un Dockerfile **(!)**
-- Implementar buenas practicas para Deno **(!)**
+
+## Issues.
+Los issues están disponibles [aquí](https://github.com/jsDotx3/deno-lab/issues)

@@ -8,5 +8,9 @@ export default {
         username: loadConfig.DATABASE_USERNAME,
         password: loadConfig.DATABASE_PASSWORD,
         db: loadConfig.DATABASE_NAME
+    },
+    server: {
+        hostname: loadConfig.HOST_NAME || "0.0.0.0",
+        port: parseInt(loadConfig.HOST_PORT || '3000')
     }
 }

@@ -1,22 +1,8 @@
-import models from '../models/mod.ts';
-import {Router } from "https://deno.land/x/denotrain@v0.4.4/mod.ts";
+import { Router } from "https://deno.land/x/denotrain@v0.4.4/mod.ts";
+import { index, create } from "../controllers/user.controller.ts";
 const router = new Router();
 
-router
-    .get("/", async () => {
-        const data = await models.user_model.findAll({});
-        return {data}
-    })
-    .post('/', async(ctx) => {
-        const {body} = await ctx.req;
-        const insertRecord = await models.user_model.insert(body);
-        if(insertRecord){
-            const data = await models.user_model.findById(insertRecord);
-            return {data};
-        }
+router.get("/", index);
+router.post("/", create);
 
-        throw new Error('Error create user');
-    })
-  ;
-
-  export default router;
+export default router;
