@@ -1,4 +1,4 @@
-import models from '../models/index.ts';
+import models from '../models/mod.ts';
 import {Router } from "https://deno.land/x/denotrain@v0.4.4/mod.ts";
 const router = new Router();
 
