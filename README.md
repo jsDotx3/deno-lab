@@ -13,7 +13,7 @@
 * Github: [@jsDotx3](https://github.com/jsDotx3)
 
 ## Scripts
-###Start
+### Start
 ```sh
 deno run --allow-net --allow-read --allow-env -c tsconfig.json server.ts
 ```
