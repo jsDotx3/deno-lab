@@ -12,6 +12,11 @@
 * Twitter: [@jsDotx3](https://twitter.com/jsDotx3)
 * Github: [@jsDotx3](https://github.com/jsDotx3)
 
+## Scripts
+### Start
+```sh
+deno run --allow-net --allow-read --allow-env -c tsconfig.json server.ts
+```
 ## Roadmap.
 - Revisión de middlewares.
 - Agregar logger.
