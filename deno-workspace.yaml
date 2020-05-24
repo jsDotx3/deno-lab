@@ -1,6 +1,6 @@
 scripts:
     start:
-      file: server.ts
+      file: ./server.ts
       deno_options:
         allow-net: 
           - 0.0.0.0
