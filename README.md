@@ -12,8 +12,7 @@
 * Twitter: [@jsDotx3](https://twitter.com/jsDotx3)
 * Github: [@jsDotx3](https://github.com/jsDotx3)
 ## Requirements
-### Deno
-Version >= 1.0
+- Deno >= 1.0
 
 ### Install Denox
 ```sh
