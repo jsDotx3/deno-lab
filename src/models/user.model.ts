@@ -1,4 +1,4 @@
-import {BaseModel,Field,FieldType,Model} from "dso/mod.ts";
+import { BaseModel, Field, FieldType, Model } from "dso/mod.ts";
 
 @Model("users")
 class User extends BaseModel {
@@ -6,7 +6,7 @@ class User extends BaseModel {
     type: FieldType.INT,
     primary: true,
     length: 11,
-    autoIncrement: true
+    autoIncrement: true,
   })
   id?: number;
 

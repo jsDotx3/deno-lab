@@ -1,6 +1,7 @@
-import errors from './error.middleware.ts';
-import timing from './timing.middleware.ts';
+import errors from "./error.middleware.ts";
+import timing from "./timing.middleware.ts";
 
 export default {
-    errors,timing
-}
+  errors,
+  timing,
+};
