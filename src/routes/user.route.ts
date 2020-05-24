@@ -1,4 +1,4 @@
-import { Router } from "https://deno.land/x/denotrain@v0.4.4/mod.ts";
+import { Router } from "denotrain/mod.ts";
 import { index, create } from "../controllers/user.controller.ts";
 const router = new Router();
 

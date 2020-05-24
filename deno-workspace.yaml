@@ -1,0 +1,13 @@
+scripts:
+    start:
+      file: server.ts
+      deno_options:
+        allow-net: 
+          - 0.0.0.0
+          - localhost
+          - 127.0.0.1
+        allow-read: ./
+        allow-env: true
+        config: ./tsconfig.json
+        importmap: ./import_map.json
+        unstable: true

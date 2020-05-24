@@ -1,5 +1,5 @@
 import User from './user.model.ts';
-import {dso} from "https://deno.land/x/dso@v1.0.0/mod.ts";
+import {dso} from "dso/mod.ts";
 import config from '../../config/mod.ts';
 
 await dso.connect(config.database);

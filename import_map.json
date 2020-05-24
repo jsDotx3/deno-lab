@@ -1,0 +1,7 @@
+{
+    "imports": {
+       "denotrain/": "https://deno.land/x/denotrain@v0.4.4/",
+       "dso/": "https://deno.land/x/dso@v1.0.0/",
+       "dotenv/": "https://raw.githubusercontent.com/pietvanzoen/deno-dotenv/v0.4.0/"
+    }
+ }

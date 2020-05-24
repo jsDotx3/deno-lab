@@ -1,4 +1,4 @@
-import {BaseModel,Field,FieldType,Model} from "https://deno.land/x/dso@v1.0.0/mod.ts";
+import {BaseModel,Field,FieldType,Model} from "dso/mod.ts";
 
 @Model("users")
 class User extends BaseModel {

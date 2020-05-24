@@ -1,4 +1,4 @@
-import { BaseModel } from "https://deno.land/x/dso@v1.0.0/mod.ts";
+import { BaseModel } from "dso/mod.ts";
 
 export const all = async (model: BaseModel) => {
   const data = await model.findAll({});

@@ -11,12 +11,24 @@
 * Website: https://twitter.com/jsDotx3
 * Twitter: [@jsDotx3](https://twitter.com/jsDotx3)
 * Github: [@jsDotx3](https://github.com/jsDotx3)
+## Requirements
+### Deno
+Version >= 1.0
+
+### Install Denox
+```sh
+deno install -Af -n denox https://denopkg.com/BentoumiTech/denox/denox.ts
+```
 
 ## Scripts
 ### Start
 ```sh
+denox run start
 deno run --allow-net --allow-read --allow-env -c tsconfig.json server.ts
 ```
+
+
+
 ## Roadmap.
 - Revisión de middlewares.
 - Agregar logger.

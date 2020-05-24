@@ -1,4 +1,4 @@
-import { Application } from "https://deno.land/x/denotrain@v0.4.4/mod.ts";
+import { Application } from "denotrain/mod.ts";
 
 import home from './home.route.ts'
 import users from './user.route.ts'
