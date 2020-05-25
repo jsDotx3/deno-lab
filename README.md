@@ -29,6 +29,11 @@ denox run start
 deno fmt
 ```
 
+### Cache Modules.
+```sh
+deno cache --importmap=import_map.json --unstable -c=tsconfig.json server.ts
+```
+
 ## Roadmap.
 - Revisión de middlewares.
 - Agregar logger.
