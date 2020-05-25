@@ -23,14 +23,11 @@ deno install -Af -n denox https://denopkg.com/BentoumiTech/denox/denox.ts
 ### Start
 ```sh
 denox run start
-deno run --allow-net --allow-read --allow-env -c tsconfig.json server.ts
 ```
 ### Formatter Code.
 ```sh
 deno fmt
 ```
-
-
 
 ## Roadmap.
 - Revisión de middlewares.
